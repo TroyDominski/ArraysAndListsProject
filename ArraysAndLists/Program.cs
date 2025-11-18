@@ -24,13 +24,13 @@ namespace ArraysAndLists
                 Console.WriteLine(number);
             }
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i <= odds.Count - 1; i++)
                 
-                if (i % 2 != 0) 
-                { 
-                    odds.Add(i);
-                    Console.WriteLine(odds[i]);
-                }
+                 
+            { 
+                    
+                Console.WriteLine(odds[i]);
+            }
 
             
         }
